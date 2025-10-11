@@ -7,7 +7,6 @@
 <p align="center">
     <img src="https://img.shields.io/badge/Python-3.11-blue.svg" alt="Python Version">
     <img src="https://img.shields.io/badge/Framework-Streamlit-red.svg" alt="Streamlit">
-    <img src="https://img.shields.io/badge/Lisans-MIT-green.svg" alt="License">
 </p>
 
 Veri odaklı yatırım stratejileri oluşturmak, test etmek ve analiz etmek için geliştirilmiş, kurumsal düzeyde yeteneklere sahip, açık kaynaklı ve interaktif bir web platformu.
