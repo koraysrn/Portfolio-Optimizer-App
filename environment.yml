@@ -1,0 +1,14 @@
+name: portfolio_optimizer_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - streamlit
+  - pandas
+  - yfinance
+  - pyportfolioopt
+  - plotly
+  - matplotlib
+  - seaborn
+  - requests
