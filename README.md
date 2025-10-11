@@ -3,7 +3,7 @@
 Bu proje, Streamlit kullanılarak geliştirilmiş interaktif bir web uygulamasıdır. Kullanıcıların belirlediği hisse senetleri için modern portföy teorisi prensiplerini kullanarak portföy optimizasyonu yapmalarına, stratejilerini geçmiş verilerle test etmelerine (backtesting) ve sonuçları analiz etmelerine olanak tanır.
 
 
-## 🚀 Temel Özellikler
+## Temel Özellikler
 
 * **Kararlı Veri Akışı:** `yfinance` kütüphanesinin kısıtlamalarından kaçınmak için güvenilir [TwelveData](https://twelvedata.com/) API'si üzerinden veri çeker.
 * **Gelişmiş Optimizasyon:**
@@ -22,7 +22,7 @@ Bu proje, Streamlit kullanılarak geliştirilmiş interaktif bir web uygulaması
 
 ---
 
-## 🛠️ Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 ### 1. Ön Gereksinimler
 * [Conda](https://docs.conda.io/en/latest/miniconda.html) (veya Miniconda) yüklü olmalıdır.
