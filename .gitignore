@@ -1,8 +1,7 @@
-# Gizli dosyaları ve logları yoksay
+
 secrets.toml
 app.log
 *.csv
 
-# Python cache dosyalarını yoksay
 __pycache__/
 *.pyc

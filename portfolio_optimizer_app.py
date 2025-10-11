@@ -1,6 +1,6 @@
 # portfolio_optimizer_app.py 
 """
-Portföy Optimizasyon & Backtest (TwelveData)
+Portföy Optimizasyon & Backtest 
 Çalıştırma: streamlit run portfolio_optimizer_app.py
 """
 import streamlit as st

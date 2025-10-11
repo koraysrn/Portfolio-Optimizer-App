@@ -1,4 +1,4 @@
-name: portfolio_optimizer_env
+name: Portfolio_optimizer_env
 channels:
   - conda-forge
   - defaults
