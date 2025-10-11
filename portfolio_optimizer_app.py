@@ -1,6 +1,6 @@
 # portfolio_optimizer_app.py
 """
-Nihai Tam Sürüm - Portföy Optimizasyon & Backtest (TwelveData)
+Portföy Optimizasyon & Backtest (TwelveData)
 Çalıştırma: streamlit run portfolio_optimizer_app.py
 Not: TwelveData API anahtarınızı st.secrets["TD_API_KEY"] olarak saklayın.
 """

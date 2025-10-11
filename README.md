@@ -2,7 +2,6 @@
 
 Bu proje, Streamlit kullanılarak geliştirilmiş interaktif bir web uygulamasıdır. Kullanıcıların belirlediği hisse senetleri için modern portföy teorisi prensiplerini kullanarak portföy optimizasyonu yapmalarına, stratejilerini geçmiş verilerle test etmelerine (backtesting) ve sonuçları analiz etmelerine olanak tanır.
 
-![Uygulama Görüntüsü](https://i.imgur.com/your_screenshot_url.png)  ---
 
 ## 🚀 Temel Özellikler
 
