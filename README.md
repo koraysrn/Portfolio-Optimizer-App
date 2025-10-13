@@ -55,7 +55,7 @@ cd Portfolio-Optimizer-App
 
 # 2. Conda ortamını oluşturun ve aktifleştirin
 conda env create -f environment.yml
-conda activate Portfolio_optimizer_env
+conda activate portfolio_optimizer_env
 
 # 3. API anahtarınızı ayarlayın
 # Not: 'YOUR_API_KEY_HERE' kısmını kendi TwelveData API anahtarınızla değiştirmeyi unutmayın.
