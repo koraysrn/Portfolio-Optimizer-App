@@ -7,7 +7,6 @@
 <p align="center">
     <img src="https://img.shields.io/badge/Python-3.11-blue.svg" alt="Python Version">
     <img src="https://img.shields.io/badge/Framework-Streamlit-red.svg" alt="Streamlit">
-    <img src="https://img.shields.io/badge/Lisans-MIT-green.svg" alt="License">
 </p>
 
 Modern portföy teorisini, geçmişe dönük performans testlerini ve interaktif veri analizini bir araya getiren; özel olarak tasarlanmış arayüzü ile şık ve profesyonel bir kullanıcı deneyimi sunan gelişmiş portföy optimizasyon platformu.
