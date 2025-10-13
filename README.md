@@ -1,4 +1,4 @@
-# Portföy Optimizasyon & Backtest Platformu
+# Pro Portföy Analisti · Premium
 
 <p align="center">
   <img src="https://i.imgur.com/your_gif_url_here.gif" alt="Uygulama Demosu" width="800"/>
@@ -10,63 +10,60 @@
     <img src="https://img.shields.io/badge/Lisans-MIT-green.svg" alt="License">
 </p>
 
-Veri odaklı yatırım stratejileri oluşturmak, test etmek ve analiz etmek için geliştirilmiş, kurumsal düzeyde yeteneklere sahip, açık kaynaklı ve interaktif bir web platformu.
+Modern portföy teorisini, geçmişe dönük performans testlerini ve interaktif veri analizini bir araya getiren; özel olarak tasarlanmış arayüzü ile şık ve profesyonel bir kullanıcı deneyimi sunan gelişmiş portföy optimizasyon platformu.
 
 ---
 
 ##  Projenin Amacı
 
-Karmaşık finansal analiz araçlarına veya pahalı aboneliklere ihtiyaç duymadan, modern portföy teorisi prensiplerini ve geçmiş performans testlerini herkes için erişilebilir kılmak. Bu araç, teorik finans modelleri ile gerçek dünya yatırım kararları arasında bir köprü kurar.
+Bu platform, bireysel yatırımcıların ve finans meraklılarının, karmaşık finansal araçlara veya pahalı aboneliklere ihtiyaç duymadan, veri odaklı yatırım stratejileri geliştirmelerini, test etmelerini ve optimize etmelerini sağlamak amacıyla geliştirilmiştir. Teorik finans modelleri ile pratik yatırım kararları arasında köprü kurarak, herkes için erişilebilir ve güçlü bir analiz aracı sunar.
 
 ##  Öne Çıkan Özellikler
 
-### Analitik Motor
-* **Gelişmiş Optimizasyon:** "Maksimum Sharpe Oranı" veya "Minimum Volatilite" hedeflerine göre, esnek ağırlık kısıtları belirleyerek portföyünüzü optimize edin.
-* **Sağlam Risk Modelleri:** Standart "Örnek Kovaryans" modeline ek olarak, istatistiksel olarak daha tutarlı sonuçlar üreten **Ledoit-Wolf Kovaryans Shrinkage** modelini kullanın.
-* **Kapsamlı Performans Metrikleri:** Sharpe Oranı, Sortino Oranı ve Maksimum Düşüş (Max Drawdown) gibi kritik metriklerle stratejinizin risk-getiri profilini derinlemesine analiz edin.
+###  Premium Arayüz ve Kullanıcı Deneyimi
+* [cite_start]**Modern ve Şık Tasarım:** Özel CSS ile tasarlanmış karanlık mod arayüzü, kart tabanlı düzeni ve akıcı animasyonları ile göz yormayan, profesyonel bir kullanım deneyimi sunar. [cite: 1]
+* [cite_start]**Sezgisel Kontrol Paneli:** Tüm ayarlar ve parametreler, sol paneldeki düzenli ve genişletilebilir menüler altında toplanmıştır. [cite: 1]
+* **Sekmeli Yapı:** Analiz sonuçları; [cite_start]`Veri Özeti`, `Backtest`, `Analitik Araçlar` ve `Geçmiş` gibi organize sekmeler altında sunularak karmaşıklığı ortadan kaldırır. [cite: 1]
 
-### Strateji Testi ve Görselleştirme
-* **Geçmiş Performans Testi (Backtesting):** Oluşturduğunuz portföyü, belirlediğiniz bir başlangıç sermayesiyle geçmiş veriler üzerinde test edin ve performansını S&P 500 (SPY) gibi bir endeksle karşılaştırmalı olarak görün.
-* **Etkileşimli Grafikler:** Etkin Sınır (Efficient Frontier), portföy dağılımı ve varlık korelasyon matrisi gibi görselleştirmelerle karmaşık verileri kolayca yorumlayın.
-* **Sonuçları Karşılaştırma:** Farklı parametrelerle yaptığınız analizlerin sonuçlarını oturum boyunca saklayın ve karşılaştırmalı bir tabloda görüntüleyin.
+###  Güçlü Analitik Motor
+* [cite_start]**Gelişmiş Optimizasyon:** Portföyünüzü "Maksimum Sharpe Oranı" veya "Minimum Volatilite" hedeflerine göre, esnek alt ve üst ağırlık sınırları belirleyerek optimize edin. [cite: 1]
+* [cite_start]**Sağlam Risk Modelleri:** Standart "Örnek Kovaryans" modeline ek olarak, istatistiksel gürültüyü azaltarak daha tutarlı sonuçlar üreten **Ledoit-Wolf Kovaryans Shrinkage** modelini kullanın. [cite: 1]
+* [cite_start]**Kapsamlı Performans Metrikleri:** Beklenen Getiri, Volatilite, Sharpe Oranı ve yeni eklenen **Çeşitlendirme Endeksi (Diversification Index)** gibi kritik KPI'ları ana panelde anında görün. [cite: 1]
 
-### Teknoloji ve Mimari
-* **Kararlı Veri Akışı:** Güvenilir **TwelveData API**'si üzerinden kararlı ve tutarlı finansal veriler.
-* **Profesyonel Yapı:** Güvenli API anahtarı yönetimi (`secrets.toml`), tekrarlanabilir kurulum (`environment.yml`) ve hata ayıklama için dosya tabanlı loglama (`app.log`) ile sağlam bir mühendislik altyapısı.
+###  Strateji Testi ve İnteraktif Görselleştirme
+* [cite_start]**İnteraktif Etkin Sınır (Efficient Frontier):** Etkin Sınır grafiği üzerinde bir kaydırıcı (slider) ile gezerek, grafikteki herhangi bir noktanın (risk-getiri kombinasyonunun) portföy ağırlıklarını anlık olarak inceleyin. [cite: 1]
+* [cite_start]**Karşılaştırmalı Backtesting:** Oluşturduğunuz portföyün geçmiş performansını, belirlediğiniz bir başlangıç sermayesiyle test edin ve S&P 500 (SPY) gibi bir endeksle karşılaştırmalı olarak analiz edin. [cite: 1]
+* [cite_start]**Oturum Geçmişi:** Aynı oturumda yaptığınız farklı analizlerin özet sonuçlarını "Geçmiş" sekmesinde görüntüleyerek stratejilerinizi kolayca karşılaştırın. [cite: 1]
+
+###  Teknoloji ve Mimari
+* [cite_start]**Güvenilir Veri Kaynağı:** Finansal veriler, kararlı ve tutarlı bir akış için **TwelveData API**'si üzerinden sağlanır. [cite: 1]
+* [cite_start]**Profesyonel Proje Yapısı:** Güvenli API anahtarı yönetimi (`.streamlit/secrets.toml`), tekrarlanabilir kurulum (`environment.yml`) ve temiz bir sürüm kontrol geçmişi (`.gitignore`) ile sağlam bir mühendislik altyapısı üzerine kurulmuştur. [cite: 1]
 
 ---
 
-## Kurulum ve Çalıştırma
+##  Kurulum ve Çalıştırma
 
-Bu adımları takip ederek uygulamayı yerel makinenizde 5 dakikadan kısa sürede çalıştırabilirsiniz.
-
-### 1. Ön Gereksinimler
+### Ön Gereksinimler
 * [Conda](https://docs.conda.io/en/latest/miniconda.html) (veya Miniconda) sisteminizde yüklü olmalıdır.
 
-### 2. Depoyu Klonlama
+### Kurulum Adımları
+Aşağıdaki komutları terminalinize yapıştırarak projeyi klonlayabilir, bağımlılıkları kurabilir ve çalıştırabilirsiniz.
+
 ```bash
+# 1. Depoyu klonlayın ve dizine gidin
 git clone [https://github.com/koraysrn/Portfolio-Optimizer-App.git](https://github.com/koraysrn/Portfolio-Optimizer-App.git)
 cd Portfolio-Optimizer-App
-```
 
-### 3. Conda Ortamını Oluşturma ve Aktifleştirme
-Projenin ihtiyaç duyduğu tüm kütüphaneleri `environment.yml` dosyasını kullanarak tek komutla kurun:
-```bash
+# 2. Conda ortamını oluşturun ve aktifleştirin
 conda env create -f environment.yml
-conda activate portfolio_optimizer_env
-```
+conda activate Portfolio_optimizer_env
 
-### 4. API Anahtarını Ayarlama
-Bu proje [TwelveData](https://twelvedata.com/) API'sini kullanmaktadır. Ücretsiz bir API anahtarı alın ve proje ana dizininde `.streamlit` adında bir klasör oluşturun. Bu klasörün içine `secrets.toml` adında bir dosya oluşturup anahtarınızı ekleyin:
-```toml
-# .streamlit/secrets.toml
-TD_API_KEY = "BURAYA_KENDİ_API_ANAHTARINIZI_YAPIŞTIRIN"
-```
-Bu dosya, `.gitignore` tarafından kasıtlı olarak yoksayılır ve API anahtarınızın güvende kalmasını sağlar.
+# 3. API anahtarınızı ayarlayın
+# Not: 'YOUR_API_KEY_HERE' kısmını kendi TwelveData API anahtarınızla değiştirmeyi unutmayın.
+mkdir -p .streamlit
+echo 'TD_API_KEY = "YOUR_API_KEY_HERE"' > .streamlit/secrets.toml
 
-### 5. Uygulamayı Başlatma
-Aşağıdaki komut ile Streamlit uygulamasını başlatın:
-```bash
+# 4. Uygulamayı başlatın
 streamlit run portfolio_optimizer_app.py
 ```
 Uygulama varsayılan tarayıcınızda açılacaktır.

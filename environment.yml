@@ -6,10 +6,13 @@ dependencies:
   - python=3.11
   - streamlit
   - pandas
-  - yfinance
-  - pyportfolioopt
+  - numpy
   - plotly
   - matplotlib
   - seaborn
   - requests
-  - scikit-learn 
+  - scikit-learn
+  - pillow
+  - pip
+  - pip:
+    - pyportfolioopt
