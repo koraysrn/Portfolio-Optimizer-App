@@ -24,14 +24,14 @@ import plotly.graph_objects as go
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 st.set_page_config(
-    page_title="Pro Portföy Analisti · Premium",
+    page_title="Portföy Analisti",
     page_icon="📈",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
 # -------------------------
-# Elegant CSS (dark, cards, spacing)
+# CSS 
 # -------------------------
 st.markdown(
     """
@@ -286,7 +286,7 @@ else:
                 "min_w": min_w,
                 "max_w": max_w
             }
-            st.success("Optimizasyon tamamlandı ✅", icon="🎉")
+            st.success("Optimizasyon tamamlandı ✅")
         except Exception as e:
             logging.error("Analiz hatası", exc_info=True)
             st.error(f"Analiz sırasında hata oluştu: {e}")

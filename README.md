@@ -1,4 +1,4 @@
-# Pro Portföy Analisti · Premium
+# Portföy Analisti
 
 <p align="center">
   <img src="https://i.imgur.com/your_gif_url_here.gif" alt="Uygulama Demosu" width="800"/>
