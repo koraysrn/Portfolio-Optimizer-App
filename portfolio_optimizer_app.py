@@ -104,11 +104,11 @@ with st.container():
         """
         <div class="app-header">
             <div style="display:flex;flex-direction:column;">
-                <div class="app-title">Pro Portföy Analisti · Premium (GÜNCEL & UYARISIZ)</div>
-                <div class="app-sub">Modern portföy optimizasyonu · interaktif analiz · güzel UX</div>
+                <div class="app-title">Portföy Analisti</div>
+                <div class="app-sub">Modern portföy optimizasyonu</div>
             </div>
             <div style="margin-left:auto; text-align:right;">
-                <div class="muted">Versiyon: <strong>1.0.5</strong></div>
+                <div class="muted">Versiyon: <strong>1.0.2</strong></div>
                 <div class="muted">Data source: TwelveData API</div>
             </div>
         </div>
@@ -230,7 +230,7 @@ if not st.session_state.analysis_complete:
                     <div class="muted">Analizi başlattığınızda veriler çekilecek, optimizasyon yapılacak ve sonuçlar interaktif panoda görünecek.</div>
                 </div>
                 <div style="text-align:right">
-                    <div class="muted">İpucu: Etkin Sınır grafiği artık daha pürüzsüz bir görsel için sabit 100 nokta ile hesaplanmaktadır.</div>
+                    <div class="muted">İpucu: Etkin Sınır grafiği daha pürüzsüz bir görsel için sabit 100 nokta ile hesaplanmaktadır.</div>
                 </div>
             </div>
         </div>
