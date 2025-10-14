@@ -27,7 +27,7 @@ st.set_page_config(
     page_title="Portföy Analisti",
     page_icon="📈",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
 )
 
 # -------------------------
@@ -44,7 +44,28 @@ st.markdown(
         --accent-2: #7b61ff;
     }
     .stApp { background: var(--bg); color: #e6eef8; }
-    #MainMenu, footer, header {visibility: hidden;}
+
+    #MainMenu {visibility: hidden;} 
+    
+    [data-testid="stToolbar"] > button:nth-child(1) {
+        display: none !important;
+    }
+    
+    footer {visibility: hidden;} 
+ 
+    [data-testid="stHeader"] {
+        background-color: var(--bg) !important; 
+    }
+    
+    .stApp > header > button {
+        color: var(--muted) !important; 
+    }
+
+    [data-testid="stSidebarNav"] button {
+        color: var(--muted) !important;
+    }
+    
+    
     .app-header {
         display:flex; align-items:center; gap:16px; padding:18px 22px; border-radius:12px;
         background: linear-gradient(90deg, rgba(16,24,40,0.6), rgba(8,12,20,0.6));
